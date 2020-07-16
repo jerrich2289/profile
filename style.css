@@ -1,0 +1,81 @@
+
+h1 {
+  color: #adb5bd;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 1.6;
+  font-family: rounded elegance;
+}
+
+h2 {
+  color: #495057;
+  front-size: 14px;
+  font-family: rounded elegance;
+}
+
+h3 {
+  color: #495057;
+  front-size: 12px;
+  font-family: rounded elegance;
+}
+
+p {
+  color: #adb5bd;
+  font-size: 11px;
+  line-height: 1.4;
+  font-family: rounded elegance;
+}
+
+a {
+  color: #ffffff;
+  front-size: 14px;
+  font-family: rounded elegance;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cf7500;
+}
+
+img {
+  width: 275;
+  align-content: center;
+}
+
+.card_white {
+  background: white;
+  padding: 30px;
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.btn_gold {
+  background-color: #f0a500;
+  colour: white;
+  padding: 2px 14px;
+}
+
+.list_inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list_inline li {
+  display: inline-block;
+}
+.social_tags {
+  font-size: 32px;
+  background-color: #f0a500;
+  colour: white;
+  padding: 2px 4px;
+  margin: 8px 16px;
+}
+
+@media (max-width: 540px) {
+  .card_white {
+    width: 300px;
+  }
+  img { max-width: 100%; }
+}
